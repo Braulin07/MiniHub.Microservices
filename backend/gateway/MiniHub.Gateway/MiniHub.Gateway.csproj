@@ -8,7 +8,14 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.11" />
+    <PackageReference Include="Ocelot" Version="24.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Middlewares\" />
+    <Folder Include="Configuration\" />
+    <Folder Include="Routing\" />
   </ItemGroup>
 
 </Project>
