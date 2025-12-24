@@ -1,0 +1,6 @@
+@MiniHub.AuthService_HostAddress = http://localhost:5216
+
+GET {{MiniHub.AuthService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
