@@ -1,0 +1,70 @@
+# Visual Studio / .NET
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vssscc
+*.cachefile
+*.dbmdl
+*.bak
+*.log
+appsettings.Development.json
+
+# Build output
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+publish/
+TestResults/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+# Si quieres ignorar solo el cache local de paquetes:
+# packages/*
+
+# Rider
+.idea/
+
+# Node / front-end (si aplica)
+node_modules/
+dist/
+wwwroot/lib/
+
+# ASP.NET / MVC
+App_Data/
+*.mdf
+*.ldf
+*.ndf
+*.log
+*.sqlite
+*.db
+*.sqlite3
+
+# Resharper / JetBrains
+_ReSharper*/
+*.DotSettings.user
+*.DotSettings
+
+# User-specific files
+*.swp
+*.swo
+*.sln.cache
+*.DS_Store
+*.orig
+*.vspscc
+*.vsscc
+
+# Others
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.vs
+obj/
+Debug/
+obj/Debug/net8.0/

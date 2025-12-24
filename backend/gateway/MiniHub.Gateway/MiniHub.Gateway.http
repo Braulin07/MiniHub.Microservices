@@ -1,0 +1,6 @@
+@MiniHub.Gateway_HostAddress = http://localhost:5108
+
+GET {{MiniHub.Gateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
